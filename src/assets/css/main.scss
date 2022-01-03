@@ -1,0 +1,39 @@
+@import "./utilities/variable.scss";
+@import "./utilities/typography.scss";
+@import "./utilities/color.scss";
+@import "./utilities/display.scss";
+@import "./components/header.scss";
+@import "./components/button.scss";
+@import "./components/category.scss";
+@import "./pages/home.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: $color-white;
+  font-family: $font-primary;
+  overflow-x: hidden;
+}
+section {
+  margin: 30px 0;
+  min-height: 300px;
+}
+.rate {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  .star {
+    background: url("../images/star.png") no-repeat center;
+    width: 20px;
+    height: 20px;
+    list-style: none;
+  }
+  .clear-star {
+    background: url("../images/clear-star.png") no-repeat center;
+    width: 20px;
+    height: 20px;
+    list-style: none;
+  }
+}

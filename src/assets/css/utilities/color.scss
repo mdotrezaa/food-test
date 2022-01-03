@@ -1,0 +1,30 @@
+.green {
+  background: $color-green;
+}
+.lightyellow {
+  background: $color-lightyellow;
+}
+.blue {
+  background: $color-blue;
+}
+.darkblue {
+  background: $color-darkBlue;
+}
+.pink {
+  background: $color-pink;
+}
+.light-green {
+  background: rgba($color: $color-green, $alpha: 0.1);
+}
+.light-lightyellow {
+  background: rgba($color: $color-lightyellow, $alpha: 0.1);
+}
+.light-blue {
+  background: rgba($color: $color-blue, $alpha: 0.1);
+}
+.light-darkblue {
+  background: rgba($color: $color-darkBlue, $alpha: 0.1);
+}
+.light-pink {
+  background: rgba($color: $color-pink, $alpha: 0.1);
+}

@@ -40,6 +40,10 @@ header {
       list-style: none;
       padding: 15px 15px;
       font-weight: 500;
+      cursor: pointer;
+      &:hover {
+        color: $color-green;
+      }
       span {
         position: absolute;
         color: $color-white;

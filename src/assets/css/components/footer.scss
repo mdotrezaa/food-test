@@ -1,78 +1,79 @@
-footer{
-    background: rgba($color: $color-green, $alpha: .1);
-    min-height: 400px;
-    padding: 100px 50px;
-    border-radius: 20px;
-    .title{
-        font-weight: 500;
-        margin-bottom: 30px;
-    }
-    .list{
-        display: flex;
-        flex-direction: column;
-        gap: 5px 0;
-        span{
-            display: flex;
-            align-items: center;
-            gap: 0 5px;
-            opacity: .6;
-            fill: $color-green;
-            cursor: pointer;
-            &:hover{
-                fill: $color-green;
-                color:$color-green
-            }
-        }
-    }
-    p{
-        font-size: 14px;
-        opacity: .6;
-    }
-}
-.footer-col-1{
+footer {
+  background: rgba($color: $color-green, $alpha: 0.1);
+  min-height: 400px;
+  padding: 100px 50px;
+  border-radius: 20px;
+  .title {
+    margin-top: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .list {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px 0;
-    .brand{
-        width: 50%;
-        margin-bottom: 10px;
+    gap: 5px 0;
+    span {
+      display: flex;
+      align-items: center;
+      gap: 0 5px;
+      opacity: 0.6;
+      fill: $color-green;
+      cursor: pointer;
+      &:hover {
+        fill: $color-green;
+        color: $color-green;
+      }
     }
-    p{
-        font-size: 18px;
-        opacity: .6;
-    }
-    .icon{
-        display: flex;
-        gap: 0 5px;
-        margin: 0!important;
-        padding: 0!important;
-        span{
-            display: flex;
-            align-items: center;
-            list-style: none;
-            fill: $color-green;
-            padding: 10px;
-            &:hover{
-                background: $color-green;
-                fill: $color-white;
-                border-radius: 50%;
-            }
-        }
-    }
+  }
+  p {
+    font-size: 14px;
+    opacity: 0.6;
+  }
 }
-.footer-col-4{
-    .input-group{
-        .form-control{
-            &:focus{
-                border: 1px solid;
-                box-shadow: 0 0 0 0.25rem rgba($color: $color-green, $alpha: .1)!important;
-                border-color: $color-green!important;
-            }
-        }
-        span{
-            background: $color-green;
-            color:$color-white;
-        }
+.footer-col-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px 0;
+  .brand {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 18px;
+    opacity: 0.6;
+  }
+  .icon {
+    display: flex;
+    gap: 0 5px;
+    margin: 0 !important;
+    padding: 0 !important;
+    span {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      fill: $color-green;
+      padding: 10px;
+      &:hover {
+        background: $color-green;
+        fill: $color-white;
+        border-radius: 50%;
+      }
     }
+  }
+}
+.footer-col-4 {
+  .input-group {
+    .form-control {
+      &:focus {
+        border: 1px solid;
+        box-shadow: 0 0 0 0.25rem rgba($color: $color-green, $alpha: 0.1) !important;
+        border-color: $color-green !important;
+      }
+    }
+    span {
+      background: $color-green;
+      color: $color-white;
+    }
+  }
 }

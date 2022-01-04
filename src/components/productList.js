@@ -89,38 +89,38 @@ const products = [
   },
 ];
 const ProductList = (props) => {
-  const [more, setMore] = useState(8);
+  const [more, setMore] = useState(false);
 
   const handleClick = () => {
     setMore(!more);
   };
   return (
-    <section className='product-section'>
+    <section className="product-section">
       <Container>
         <Row>
           <Col>
             <h2>
               Browser Our Trending
-              <span className='primary-font block'>Receipt</span>
+              <span className="primary-font block">Receipt</span>
             </h2>
           </Col>
         </Row>
-        <div className='product-wrapper'>
+        <div className="product-wrapper">
           <Row>
             {products.slice(0, more ? 99 : 8).map((item) => (
               <Col md={3} xs={12}>
                 <div className={`product-item ${item.category}`}>
                   <img src={require(`../assets/images/items/${item.image}`)} />
-                  <span className='title'>{item.title}</span>
-                  <span className='category'>{item.category}</span>
+                  <span className="title">{item.title}</span>
+                  <span className="category">{item.category}</span>
                   <Rating rating={item.star} />
                 </div>
               </Col>
             ))}
           </Row>
         </div>
-        <div className='btn-group center'>
-          <span className='btn-primary' onClick={handleClick}>
+        <div className="btn-group center">
+          <span className="btn-primary" onClick={handleClick}>
             {more ? "Show less" : "ALL Receipt"}
           </span>
         </div>

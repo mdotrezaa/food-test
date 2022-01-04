@@ -23,43 +23,43 @@ const Category = () => {
           <div id="scroll" className="flex-container">
             <div className="flex-item cupcake">
               <img src={require("../assets/images/item1.png")} />
-              <span>Cupcake</span>
-              <span>22 Items</span>
+              <span className="title">Cupcake</span>
+              <span className="total">22 Items</span>
             </div>
             <div className="flex-item pizza">
               <img src={require("../assets/images/item2.png")} />
-              <span>Pizza</span>
-              <span>25 Items</span>
+              <span className="title">Pizza</span>
+              <span className="total">25 Items</span>
             </div>
             <div className="flex-item kebab">
               <img src={require("../assets/images/item3.png")} />
-              <span>Kebab</span>
-              <span>12 Items</span>
+              <span className="title">Kebab</span>
+              <span className="total">12 Items</span>
             </div>
             <div className="flex-item salmon">
               <img src={require("../assets/images/item4.png")} />
-              <span>Salmon</span>
-              <span>22 Items</span>
+              <span className="title">Salmon</span>
+              <span className="total">22 Items</span>
             </div>
             <div className="flex-item doughnut">
               <img src={require("../assets/images/item5.png")} />
-              <span>Doughnut</span>
-              <span>11 Items</span>
+              <span className="title">Doughnut</span>
+              <span className="total">11 Items</span>
             </div>
             <div className="flex-item kebab">
               <img src={require("../assets/images/item3.png")} />
-              <span>Kebab</span>
-              <span>11 Items</span>
+              <span className="title">Kebab</span>
+              <span className="total">11 Items</span>
             </div>
             <div className="flex-item salmon">
               <img src={require("../assets/images/item4.png")} />
-              <span>Salmon</span>
-              <span>11 Items</span>
+              <span className="title">Salmon</span>
+              <span className="total">11 Items</span>
             </div>
             <div className="flex-item pizza">
               <img src={require("../assets/images/item2.png")} />
-              <span>Pizza</span>
-              <span>11 Items</span>
+              <span className="title">Pizza</span>
+              <span className="total">11 Items</span>
             </div>
           </div>
         </div>

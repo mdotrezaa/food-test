@@ -18,11 +18,11 @@
   min-height: 250px;
   scroll-behavior: smooth;
   padding-right: 250px;
-  -ms-overflow-style: none;  /* IE and Edge */
+  -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
   @media only screen and (max-width: 768px) {
-  padding-right: 0;
-  width: 100%;
+    padding-right: 0;
+    width: 100%;
     min-height: 470px !important;
   }
   &::-webkit-scrollbar {
@@ -41,6 +41,9 @@
   width: 250px;
   height: 250px;
   transition: 1s;
+  .title {
+    font-weight: 600;
+  }
   &:hover {
     background-blend-mode: multiply;
     height: 280px;

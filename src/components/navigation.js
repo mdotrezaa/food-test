@@ -9,7 +9,7 @@ const Navigation = () => {
           Home
         </li>
         <li>
-          <box-icon name="group"></box-icon>' About
+          <box-icon name="group"></box-icon> About
         </li>
         <li>
           <div>

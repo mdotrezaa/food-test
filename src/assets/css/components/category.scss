@@ -17,8 +17,12 @@
   max-width: 1440px;
   min-height: 250px;
   scroll-behavior: smooth;
+  padding-right: 250px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
   @media only screen and (max-width: 768px) {
-    width: 100%;
+  padding-right: 0;
+  width: 100%;
     min-height: 470px !important;
   }
   &::-webkit-scrollbar {

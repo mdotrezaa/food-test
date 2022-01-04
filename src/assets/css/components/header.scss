@@ -55,26 +55,24 @@ header {
     }
   }
   .heading-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     position: relative;
-    min-height: 500px;
-    .big-plate {
-      position: absolute;
-      left: 0px;
-      right: 0;
-      top: 50px;
-      z-index: -1;
-      margin: auto;
+    .grey-plate{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
     }
-    .grey-plate {
+    .big-plate{
       position: absolute;
-      left: 0px;
-      right: 0;
-      top: 0px;
       margin: auto;
-      z-index: -1;
     }
     .card-plate {
       position: absolute;
+      left: 0;
       bottom: 0;
       min-height: 50px;
       padding: 10px;
@@ -100,4 +98,25 @@ header {
       }
     }
   }
+}
+@media only screen and (max-width: 768px) {
+  header{
+    .brand{
+      width: 30%;
+    }
+  }
+  .heading-image{
+    justify-content: flex-start!important;
+    min-height: 300px;
+    .grey-plate{
+      width: 50%!important;
+    }
+    .big-plate{
+      left: 20px !important;
+      width: 40%;
+    }
+  }
+}
+@media only screen and (min-width: 800px) {
+  
 }

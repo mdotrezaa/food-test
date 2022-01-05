@@ -1,4 +1,4 @@
-# Getting Started with Food Test App
+# Getting Started with Food App
 
 [DEMO](http://food-test.herokuapp.com/)
 

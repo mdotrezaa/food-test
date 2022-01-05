@@ -18,12 +18,12 @@
   float: right;
   justify-content: flex-end;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .hide-on-mobile {
     display: none !important;
   }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
   .hide-on-desktop {
     display: none;
   }

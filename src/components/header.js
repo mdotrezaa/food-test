@@ -5,10 +5,10 @@ import Navigation from "./navigation";
 const Header = () => {
   return (
     <header>
-      <div className="brand">
+      <div className='brand'>
         <img src={require("../assets/images/logo.png")} />
       </div>
-      <div className="nav hide-on-mobile">
+      <div className='nav hide-on-mobile'>
         <ul>
           <li>Home</li>
           <li>About</li>
@@ -20,9 +20,9 @@ const Header = () => {
         </ul>
       </div>
       <Navigation />
-      <div className="btn-group">
-        <span className="btn-clear">Masuk</span>
-        <span className="btn-primary">Daftar Sekarang</span>
+      <div className='btn-group'>
+        <span className='btn-clear hide-on-mobile'>Masuk</span>
+        <span className='btn-primary'>Daftar Sekarang</span>
       </div>
     </header>
   );

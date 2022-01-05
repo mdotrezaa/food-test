@@ -70,4 +70,4 @@ $ git push heroku master
 ### Connect Github
 1. Connect Heroku to your Github.
 2. Search for a repository to connect.
-3. Find Deploy Manual Button then Click.
+3. Find Deploy Branch Button then Click.

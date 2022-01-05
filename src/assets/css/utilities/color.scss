@@ -14,17 +14,17 @@
   background: $color-pink;
 }
 .light-green, .cupcake {
-  background: rgba($color: $color-green, $alpha: 0.1);
+  background: rgba($color-green, 0.1);
 }
 .light-lightyellow, .doughnut {
-  background: rgba($color: $color-lightyellow, $alpha: 0.1);
+  background: rgba($color-lightyellow,  0.1);
 }
 .light-blue, .pizza {
-  background: rgba($color: $color-blue, $alpha: 0.1);
+  background: rgba($color-blue,  0.1);
 }
 .light-darkblue, .kebab {
-  background: rgba($color: $color-darkBlue, $alpha: 0.1);
+  background: rgba($color-darkBlue,  0.1);
 }
 .light-pink, .salmon {
-  background: rgba($color: $color-pink, $alpha: 0.1);
+  background: rgba($color-pink,  0.1);
 }
